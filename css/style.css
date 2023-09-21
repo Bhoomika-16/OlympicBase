@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Anton&family=Architects+Daughter&family=Cinzel&family=Gugi&family=Lato:wght@100&family=Monda&family=Righteous&family=Roboto:wght@100&family=Sofia&display=swap');
+:root{
+    --MnB:#191970;
+    --cfB:#6495ED;
+    --Crs:#DC143C;
+    --lsm:#FFA07A;
+    --Gyw:#ADFF2F;
+    --Tal:#008080;
+    --Plm:#DDA0DD;
+    --Lvn:#E6E6FA;
+    --Lvb:#FFF0F5;
+    --Lnn:#FAF0E6;
+    --Abrl: 'Abril Fatface', cursive;
+    --Amtc: 'Amatic SC', cursive;
+    --Antn: 'Anton', sans-serif;
+    --Atdr: 'Architects Daughter', cursive;
+    --Cnzl: 'Cinzel', serif;
+    --Gugi: 'Gugi', cursive;
+    --Lato: 'Lato', sans-serif;
+    --Mnda: 'Monda', sans-serif;
+    --Rgts: 'Righteous', cursive;
+    --Rbto: 'Roboto', sans-serif;
+    --Sfia: 'Sofia', cursive;
+}
+
+.ob{
+    color:var(--MnB);
+    font-family:var(--Abrl);
+}
+.desc{
+    color:var(--Crs);
+    font-family:var(--Mnda);
+}
+.hdrbg{
+    background-color:var(--Lvn);
+}
+.Bdbg{
+    background-color:var(--lsm);
+}
+.Bybg{
+    background-color:var(--Lnn);
+}
+.ftrbg{
+    background-color:var(--Plm);
+}
+.header-links a{
+    font-size:0.9em;
+    text-decoration:none;
+    color:white;
+}
+.card {
+    padding-top: 0%;
+    margin-bottom: 15%;
+    place-items: center;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: 20%;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:var(--Lvb);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.Sports{
+    background-color:var(--Lnn);
+}
+
+.Sphdr{
+    color:var(--MnB);
+    font-weight:bold;
+    font-family:var(--Rbto);
+}
+
+.Mcn{
+    font-weight:bold;
+    font-family:var(--Sfia);
+}
+
+.tab{
+    color: #080842;
+    font-weight:bold;
+    font-family: var(--Antn);
+}
